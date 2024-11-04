@@ -1,0 +1,93 @@
+.navbar {
+    background-color: #4A69BD;
+}
+.navbar-brand, .nav-link {
+    color: #F8F9FA !important;
+    font-weight: 500;
+}
+.nav-link:hover {
+    color: #82CCDD !important;
+}
+.banner {
+    position: relative;
+    height: 500px;
+    background: url('https://www.istanbulsanatevi.com/wp-content/uploads/2015/02/ozgun_baski_nedir_serigrafi.jpg') no-repeat center center/cover;
+}
+.banner-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: #F8F9FA;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+.hakkimizda-card {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #F8F9FA;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    margin-top: 20px;
+}
+.hakkimizda-card img {
+    width: 50%;
+    object-fit: cover;
+    height: 100%;
+}
+.hakkimizda-card-content {
+    padding: 20px;
+    width: 50%;
+    color: #2C3E50;
+}
+section {
+    padding: 60px 0;
+}
+footer {
+    background-color: #4A69BD;
+    color: #F8F9FA;
+    padding: 20px 0;
+}
+footer a {
+    color: #82CCDD;
+    text-decoration: none;
+}
+footer a:hover {
+    color: #ffffff;
+}
+.hizmet-kutu {
+    background-color: #F8F9FA;
+    border-radius: 8px;
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+}
+.hizmet-icon {
+    font-size: 40px;
+    color: #4A69BD;
+    margin-bottom: 10px;
+}
+.hizmetler-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+.section-title {
+    background-color: #f1f1f1;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.shadow-lg {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+.text-primary {
+    color: #4A69BD !important;
+}
+
+
+
