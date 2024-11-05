@@ -1,12 +1,13 @@
 .navbar {
-    background-color: #4A69BD;
+    background-color: rgba(255, 255, 255, 0.9);
+    border-bottom: 2px solid #ccc;
 }
 .navbar-brand, .nav-link {
-    color: #F8F9FA !important;
-    font-weight: 500;
+    color: #333 !important;
+    font-weight: 600;
 }
 .nav-link:hover {
-    color: #82CCDD !important;
+    color: #000 !important;
 }
 .banner {
     position: relative;
@@ -18,7 +19,7 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color: #F8F9FA;
+    color: #fff;
     text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
     text-align: center;
 }
@@ -26,7 +27,7 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #F8F9FA;
+    background-color: #f5f5f5;
     border-radius: 12px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     overflow: hidden;
@@ -40,54 +41,40 @@
 .hakkimizda-card-content {
     padding: 20px;
     width: 50%;
-    color: #2C3E50;
+    color: #333;
 }
 section {
     padding: 60px 0;
+    background-color: #fafafa;
+    
 }
 footer {
-    background-color: #4A69BD;
-    color: #F8F9FA;
-    padding: 20px 0;
+    background-color: #333;
+    color: #fff;
+    padding: 40px 0;
 }
 footer a {
-    color: #82CCDD;
+    color: #b0d4fa;
     text-decoration: none;
 }
 footer a:hover {
-    color: #ffffff;
+    color: #82ccdd;/
 }
-.hizmet-kutu {
-    background-color: #F8F9FA;
-    border-radius: 8px;
-    padding: 20px;
-    text-align: center;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+.footer-content {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.footer-section {
+    width: 30%;
     margin-bottom: 20px;
 }
-.hizmet-icon {
-    font-size: 40px;
-    color: #4A69BD;
-    margin-bottom: 10px;
+.footer-section h5 {
+    border-bottom: 2px solid #b0d4fa;
+    padding-bottom: 10px;
+    margin-bottom: 15px;
 }
-.hizmetler-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-    gap: 20px;
+.footer-section p {
+    font-size: 14px;
+    line-height: 1.5;
 }
-
-.section-title {
-    background-color: #f1f1f1;
-    border-radius: 8px;
-    padding: 10px;
-    margin-bottom: 20px;
-}
-.shadow-lg {
-    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-}
-.text-primary {
-    color: #4A69BD !important;
-}
-
-
-
